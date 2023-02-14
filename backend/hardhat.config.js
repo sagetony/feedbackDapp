@@ -11,7 +11,7 @@ module.exports = {
       accounts:
         "33c9cf548aaca92d321d74483de6575452f7bc99574c6586f39fffa0276f0dfa",
       chainId: 5,
-      blockConfirmation: 6,
+      // blockConfirmation: 1,
     },
   },
 };
