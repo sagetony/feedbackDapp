@@ -7,8 +7,9 @@ module.exports = {
   defaultNetwork: "hardhat",
   networks: {
     Goerli: {
-      url: process.env.GOERLI_RPC_URL,
-      accounts: [process.env.PRIVATE_KEY],
+      url: "https://eth-goerli.g.alchemy.com/v2/jFt5UlUXHbrbOtldpgZ2-w36Hy-1BwmK",
+      accounts:
+        "33c9cf548aaca92d321d74483de6575452f7bc99574c6586f39fffa0276f0dfa",
       chainId: 5,
       blockConfirmation: 6,
     },
