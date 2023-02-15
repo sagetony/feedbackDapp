@@ -18,7 +18,7 @@ const Feedback = ({feedback}) => {
         event.preventDefault();
         // console.log(feedback)
         const deployedMsg = await feedback.sendFeedback(feedbackInfo);
-        
+        alert("Mining Process!! Kindly exercise patience")
         await deployedMsg.wait(1)
         alert("Feedback Successful")
         window.location.reload(false);
