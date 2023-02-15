@@ -8,8 +8,9 @@ module.exports = {
   networks: {
     Goerli: {
       url: "https://eth-goerli.g.alchemy.com/v2/jFt5UlUXHbrbOtldpgZ2-w36Hy-1BwmK",
-      accounts:
-        "33c9cf548aaca92d321d74483de6575452f7bc99574c6586f39fffa0276f0dfa",
+      accounts: [
+        "cc211ebf9ea736e36e587e4cc14f1c4ac1724ef29a03d7f0063074e8ea243f8e",
+      ],
       chainId: 5,
       // blockConfirmation: 1,
     },

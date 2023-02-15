@@ -4,8 +4,8 @@ import Card from 'react-bootstrap/Card';
 
 const FeedbackData = ({feedback}) => {
     const [feedbackMsg, setfeedbackMsg] = useState([])
+
     const feedbackDisplay = useCallback(async () => {
-        console.log(await feedback.viewFeedback())
         const feedbackMsgs = await feedback.viewFeedback()
         // console.log(feedbackMsgs)
         setfeedbackMsg(feedbackMsgs)

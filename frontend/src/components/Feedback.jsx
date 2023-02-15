@@ -14,10 +14,12 @@ const Feedback = ({feedback}) => {
     }
 
     const feedBackButton =  async (event) => {
+        
         event.preventDefault();
-        console.log(feedback)
+        // console.log(feedback)
         const deployedMsg = await feedback.sendFeedback(feedbackInfo);
-        deployedMsg.wait(1)
+        
+        await deployedMsg.wait(1)
         alert("Feedback Successful")
         window.location.reload(false);
 
